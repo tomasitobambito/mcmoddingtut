@@ -12,6 +12,12 @@ public class ModTags {
         public static final TagKey<Block> METAL_DETECTOR_DETECTABLE_BLOCKS =
                 createTag("metal_detector_detectable_block");
 
+        public static final TagKey<Block> NEEDS_TOOL_LEVEL_4 =
+                createTag("needs_tool_level_4");
+
+        public static final TagKey<Block> RUBY_ORES =
+                createTag("ruby_ores");
+
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, new Identifier(TutorialMod.MOD_ID, name));
         }

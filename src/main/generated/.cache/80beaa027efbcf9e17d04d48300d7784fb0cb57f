@@ -1,0 +1,11 @@
+// 1.20.5	2024-04-28T23:23:44.8818993	Tutorial Mod/Tags for minecraft:block
+263258028c1c6f7dcfdc9c0d95b5b2920a374941 data\minecraft\tags\blocks\incorrect_for_diamond_tool.json
+3d1c4f93575972d8af649dd2166bd8fc1af0a8b7 data\tutorialmod\tags\blocks\needs_tool_level_4.json
+48999f2b1aa3864ede86eb4911b16c7bae16ddaf data\tutorialmod\tags\blocks\metal_detector_detectable_block.json
+509d1916f524d3fa5c8d8786d98bfd80f4ec03ef data\tutorialmod\tags\blocks\ruby_ores.json
+d94000a6fcc1749e3805a27a197d125b686bb67c data\minecraft\tags\blocks\needs_iron_tool.json
+263258028c1c6f7dcfdc9c0d95b5b2920a374941 data\minecraft\tags\blocks\incorrect_for_stone_tool.json
+263258028c1c6f7dcfdc9c0d95b5b2920a374941 data\minecraft\tags\blocks\incorrect_for_iron_tool.json
+204ad524fb83df7507b52680a6be73e1d14f645d data\minecraft\tags\blocks\needs_diamond_tool.json
+539292090d317b28a10d39a806d8bd9a86bf0915 data\minecraft\tags\blocks\mineable\pickaxe.json
+263258028c1c6f7dcfdc9c0d95b5b2920a374941 data\minecraft\tags\blocks\incorrect_for_wooden_tool.json
