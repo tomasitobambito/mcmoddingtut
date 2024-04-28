@@ -12,6 +12,7 @@ import net.minecraft.item.ItemUsageContext;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
+import net.tomasitobambito.tutorialmod.util.ModTags;
 
 import java.util.List;
 
@@ -56,7 +57,7 @@ public class MetalDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DIAMOND_ORE);
+        return state.isIn(ModTags.Blocks.METAL_DETECTOR_DETECTABLE_BLOCKS);
     }
 
     @Override
