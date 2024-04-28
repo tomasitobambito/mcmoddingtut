@@ -2,6 +2,13 @@
   "item.tutorialmod.ruby": "Ruby",
   "item.tutorialmod.raw_ruby": "Raw Ruby",
 
+  "item.tutorialmod.metal_detector": "Metal Detector",
+
+  "item.tutorialmod.tomato": "Tomato",
+  "item.tutorialmod.coal_bricklet": "Coal Bricklet",
+
+  "block.tutorialmod.sound_block": "Sound Block",
+
   "block.tutorialmod.ruby_block": "Ruby Block",
   "block.tutorialmod.raw_ruby_block": "Raw Ruby Block",
 
@@ -10,5 +17,7 @@
   "block.tutorialmod.nether_ruby_ore": "Nether Ruby Ore",
   "block.tutorialmod.endstone_ruby_ore": "Endstone Ruby Ore",
 
-  "itemgroup.ruby": "Rabies"
+  "itemgroup.ruby": "Rabies",
+
+  "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground"
 }

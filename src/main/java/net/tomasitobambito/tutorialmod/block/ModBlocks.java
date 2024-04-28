@@ -9,6 +9,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.tomasitobambito.tutorialmod.TutorialMod;
+import net.tomasitobambito.tutorialmod.block.custom.SoundBlock;
 
 public class ModBlocks {
 
@@ -19,6 +20,10 @@ public class ModBlocks {
     public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
             new Block(AbstractBlock.Settings.copy(Blocks.DIAMOND_BLOCK)
                     .mapColor(MapColor.DARK_CRIMSON)));
+
+    public static final Block SOUND_BLOCK  = registerBlock("sound_block",
+            new SoundBlock(AbstractBlock.Settings.copy(Blocks.STONE)
+                    .mapColor(MapColor.WHITE)));
 
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),

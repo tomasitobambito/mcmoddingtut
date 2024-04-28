@@ -2,6 +2,7 @@ package net.tomasitobambito.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.tomasitobambito.tutorialmod.block.ModBlocks;
 import net.tomasitobambito.tutorialmod.item.ModItemGroups;
 import net.tomasitobambito.tutorialmod.item.ModItems;
@@ -17,5 +18,7 @@ public class TutorialMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.COAL_BRICKLET, 200);
 	}
 }
