@@ -42,5 +42,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.RAW_RUBY)));
+
+        /*
+        For methods starting in create (like create) make sure to input criterion and offerTo (see above).
+
+        For methods starting in offer (like offerSmelting) nothing extra is needed
+         */
     }
 }

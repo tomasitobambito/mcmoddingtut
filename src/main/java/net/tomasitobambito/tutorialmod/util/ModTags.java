@@ -15,6 +15,12 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_TOOL_LEVEL_4 =
                 createTag("needs_tool_level_4");
 
+        public static final TagKey<Block> NEEDS_RUBY_TOOL =
+                createTag("needs_ruby_tool");
+
+        public static final TagKey<Block> INCORRECT_FOR_RUBY_TOOL =
+                createTag("incorrect_for_ruby_tool");
+
         public static final TagKey<Block> RUBY_ORES =
                 createTag("ruby_ores");
 

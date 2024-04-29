@@ -2,8 +2,7 @@ package net.tomasitobambito.tutorialmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
@@ -27,6 +26,27 @@ public class ModItems {
         entries.add(RUBY);
         entries.add(RAW_RUBY);
     }
+
+    public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe",
+        new PickaxeItem(ModToolMaterial.RUBY, new Item.Settings()
+                .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterial.RUBY,
+                        2.0f, 2.0f))));
+    public static final Item RUBY_AXE = registerItem("ruby_axe",
+        new AxeItem(ModToolMaterial.RUBY, new Item.Settings()
+                .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterial.RUBY,
+                        2.0f, 2.0f))));
+    public static final Item RUBY_SHOVEL = registerItem("ruby_shovel",
+        new ShovelItem(ModToolMaterial.RUBY, new Item.Settings()
+                .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterial.RUBY,
+                        2.0f, 2.0f))));
+    public static final Item RUBY_SWORD = registerItem("ruby_sword",
+        new SwordItem(ModToolMaterial.RUBY, new Item.Settings()
+                .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterial.RUBY,
+                        5.0f, 3.0f))));
+    public static final Item RUBY_HOE = registerItem("ruby_hoe",
+        new HoeItem(ModToolMaterial.RUBY, new Item.Settings()
+                .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterial.RUBY,
+                        2.0f, 2.0f))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(TutorialMod.MOD_ID, name), item);

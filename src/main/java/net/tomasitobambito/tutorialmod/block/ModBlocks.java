@@ -21,9 +21,40 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.copy(Blocks.DIAMOND_BLOCK)
                     .mapColor(MapColor.DARK_CRIMSON)));
 
+
     public static final Block SOUND_BLOCK  = registerBlock("sound_block",
             new SoundBlock(AbstractBlock.Settings.copy(Blocks.STONE)
                     .mapColor(MapColor.WHITE)));
+
+
+    public static final Block RUBY_STAIRS  = registerBlock("ruby_stairs",
+            new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.DIAMOND_BLOCK).mapColor(MapColor.RED)));
+    public static final Block RUBY_SLAB  = registerBlock("ruby_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.STONE)
+                    .mapColor(MapColor.RED)));
+
+    public static final Block RUBY_BUTTON  = registerBlock("ruby_button",
+            new ButtonBlock(BlockSetType.IRON, 10,
+                    AbstractBlock.Settings.copy(Blocks.STONE).mapColor(MapColor.RED)));
+    public static final Block RUBY_PRESSURE_PLATE  = registerBlock("ruby_pressure_plate",
+            new PressurePlateBlock(BlockSetType.IRON,
+                    AbstractBlock.Settings.copy(Blocks.STONE).mapColor(MapColor.RED)));
+
+    public static final Block RUBY_FENCE  = registerBlock("ruby_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.STONE).mapColor(MapColor.RED)));
+    public static final Block RUBY_FENCE_GATE  = registerBlock("ruby_fence_gate",
+            new FenceGateBlock(WoodType.ACACIA, AbstractBlock.Settings.copy(Blocks.STONE).mapColor(MapColor.RED)));
+    public static final Block RUBY_WALL  = registerBlock("ruby_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.STONE).mapColor(MapColor.RED)));
+
+    public static final Block RUBY_DOOR  = registerBlock("ruby_door",
+            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.copy(Blocks.STONE)
+                    .nonOpaque().mapColor(MapColor.RED)));
+    public static final Block RUBY_TRAPDOOR  = registerBlock("ruby_trapdoor",
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.copy(Blocks.STONE)
+                    .nonOpaque().mapColor(MapColor.RED)));
+
 
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),

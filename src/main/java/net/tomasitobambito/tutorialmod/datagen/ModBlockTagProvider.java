@@ -30,6 +30,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_TOOL_LEVEL_4)
                 .add(ModBlocks.ENDSTONE_RUBY_ORE);
 
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_RUBY_TOOL)
+                .add(ModBlocks.SOUND_BLOCK);
+
         getOrCreateTagBuilder(ModTags.Blocks.RUBY_ORES)
                 .add(ModBlocks.RUBY_ORE)
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE)
@@ -42,16 +45,26 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RUBY_ORE)
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE)
                 .add(ModBlocks.NETHER_RUBY_ORE)
-                .add(ModBlocks.ENDSTONE_RUBY_ORE);
+                .add(ModBlocks.ENDSTONE_RUBY_ORE)
+                .add(ModBlocks.SOUND_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
-                .forceAddTag(ModTags.Blocks.NEEDS_TOOL_LEVEL_4);
+                .forceAddTag(ModTags.Blocks.NEEDS_TOOL_LEVEL_4)
+                .forceAddTag(ModTags.Blocks.NEEDS_RUBY_TOOL);
         getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_IRON_TOOL)
-                .forceAddTag(ModTags.Blocks.NEEDS_TOOL_LEVEL_4);
+                .forceAddTag(ModTags.Blocks.NEEDS_TOOL_LEVEL_4)
+                .forceAddTag(ModTags.Blocks.NEEDS_RUBY_TOOL);
         getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_STONE_TOOL)
-                .forceAddTag(ModTags.Blocks.NEEDS_TOOL_LEVEL_4);
+                .forceAddTag(ModTags.Blocks.NEEDS_TOOL_LEVEL_4)
+                .forceAddTag(ModTags.Blocks.NEEDS_RUBY_TOOL);
         getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
-                .forceAddTag(ModTags.Blocks.NEEDS_TOOL_LEVEL_4);
+                .forceAddTag(ModTags.Blocks.NEEDS_TOOL_LEVEL_4)
+                .forceAddTag(ModTags.Blocks.NEEDS_RUBY_TOOL);
+        getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+                .forceAddTag(ModTags.Blocks.NEEDS_TOOL_LEVEL_4)
+                .forceAddTag(ModTags.Blocks.NEEDS_RUBY_TOOL);
+        getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_NETHERITE_TOOL)
+                .forceAddTag(ModTags.Blocks.NEEDS_RUBY_TOOL);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE);
@@ -60,5 +73,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_RUBY_BLOCK)
                 .add(ModBlocks.RUBY_ORE)
                 .add(ModBlocks.NETHER_RUBY_ORE);
+
+        getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.RUBY_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.RUBY_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.RUBY_WALL);
     }
 }

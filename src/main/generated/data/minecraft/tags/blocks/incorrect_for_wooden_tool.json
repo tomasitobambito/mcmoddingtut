@@ -1,5 +1,6 @@
 {
   "values": [
-    "#tutorialmod:needs_tool_level_4"
+    "#tutorialmod:needs_tool_level_4",
+    "#tutorialmod:needs_ruby_tool"
   ]
 }

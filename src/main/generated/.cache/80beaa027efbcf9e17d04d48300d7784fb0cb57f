@@ -1,11 +1,17 @@
-// 1.20.5	2024-04-28T23:23:44.8818993	Tutorial Mod/Tags for minecraft:block
-263258028c1c6f7dcfdc9c0d95b5b2920a374941 data\minecraft\tags\blocks\incorrect_for_diamond_tool.json
+// 1.20.5	2024-04-29T18:20:01.2931283	Tutorial Mod/Tags for minecraft:block
+a4294123f7f371444f081e1c96232753d00441fd data\minecraft\tags\blocks\walls.json
+cf9e99ed50599e63d1bc91bdb05a00c46434c856 data\minecraft\tags\blocks\incorrect_for_gold_tool.json
+cf9e99ed50599e63d1bc91bdb05a00c46434c856 data\minecraft\tags\blocks\incorrect_for_diamond_tool.json
 3d1c4f93575972d8af649dd2166bd8fc1af0a8b7 data\tutorialmod\tags\blocks\needs_tool_level_4.json
-48999f2b1aa3864ede86eb4911b16c7bae16ddaf data\tutorialmod\tags\blocks\metal_detector_detectable_block.json
+cfae736341810a0345b58545ce6e6e88080ebf5c data\minecraft\tags\blocks\incorrect_for_netherite_tool.json
+2027697e8146c81a04b2b16b27b2b44bf4bbe316 data\minecraft\tags\blocks\fences.json
 509d1916f524d3fa5c8d8786d98bfd80f4ec03ef data\tutorialmod\tags\blocks\ruby_ores.json
 d94000a6fcc1749e3805a27a197d125b686bb67c data\minecraft\tags\blocks\needs_iron_tool.json
-263258028c1c6f7dcfdc9c0d95b5b2920a374941 data\minecraft\tags\blocks\incorrect_for_stone_tool.json
-263258028c1c6f7dcfdc9c0d95b5b2920a374941 data\minecraft\tags\blocks\incorrect_for_iron_tool.json
+cf9e99ed50599e63d1bc91bdb05a00c46434c856 data\minecraft\tags\blocks\incorrect_for_wooden_tool.json
+3e82c704aea4cea5d4face5a72484097c30b66e0 data\minecraft\tags\blocks\fence_gates.json
+48999f2b1aa3864ede86eb4911b16c7bae16ddaf data\tutorialmod\tags\blocks\metal_detector_detectable_block.json
+047901bdc4a4ba4a4f71e4ed5689a158c75088e3 data\tutorialmod\tags\blocks\needs_ruby_tool.json
+cf9e99ed50599e63d1bc91bdb05a00c46434c856 data\minecraft\tags\blocks\incorrect_for_stone_tool.json
+cf9e99ed50599e63d1bc91bdb05a00c46434c856 data\minecraft\tags\blocks\incorrect_for_iron_tool.json
 204ad524fb83df7507b52680a6be73e1d14f645d data\minecraft\tags\blocks\needs_diamond_tool.json
-539292090d317b28a10d39a806d8bd9a86bf0915 data\minecraft\tags\blocks\mineable\pickaxe.json
-263258028c1c6f7dcfdc9c0d95b5b2920a374941 data\minecraft\tags\blocks\incorrect_for_wooden_tool.json
+365f2798f2b46c64293e43523ce81cb9562c0705 data\minecraft\tags\blocks\mineable\pickaxe.json
