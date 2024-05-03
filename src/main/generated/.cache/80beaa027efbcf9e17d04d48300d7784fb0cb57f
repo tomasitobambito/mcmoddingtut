@@ -1,8 +1,8 @@
-// 1.20.5	2024-04-29T18:20:01.2931283	Tutorial Mod/Tags for minecraft:block
+// 1.20.5	2024-05-03T22:15:55.0087755	Tutorial Mod/Tags for minecraft:block
 a4294123f7f371444f081e1c96232753d00441fd data\minecraft\tags\blocks\walls.json
 cf9e99ed50599e63d1bc91bdb05a00c46434c856 data\minecraft\tags\blocks\incorrect_for_gold_tool.json
-cf9e99ed50599e63d1bc91bdb05a00c46434c856 data\minecraft\tags\blocks\incorrect_for_diamond_tool.json
 3d1c4f93575972d8af649dd2166bd8fc1af0a8b7 data\tutorialmod\tags\blocks\needs_tool_level_4.json
+cf9e99ed50599e63d1bc91bdb05a00c46434c856 data\minecraft\tags\blocks\incorrect_for_diamond_tool.json
 cfae736341810a0345b58545ce6e6e88080ebf5c data\minecraft\tags\blocks\incorrect_for_netherite_tool.json
 2027697e8146c81a04b2b16b27b2b44bf4bbe316 data\minecraft\tags\blocks\fences.json
 509d1916f524d3fa5c8d8786d98bfd80f4ec03ef data\tutorialmod\tags\blocks\ruby_ores.json
