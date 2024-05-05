@@ -10,6 +10,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.tomasitobambito.tutorialmod.TutorialMod;
 import net.tomasitobambito.tutorialmod.block.custom.SoundBlock;
+import net.tomasitobambito.tutorialmod.sound.ModSounds;
 
 public class ModBlocks {
 
@@ -23,8 +24,8 @@ public class ModBlocks {
 
 
     public static final Block SOUND_BLOCK  = registerBlock("sound_block",
-            new SoundBlock(AbstractBlock.Settings.copy(Blocks.STONE)
-                    .mapColor(MapColor.WHITE)));
+            new SoundBlock(AbstractBlock.Settings.copy(Blocks.STONE).mapColor(MapColor.WHITE)
+                    .sounds(ModSounds.SOUND_BLOCK_SOUNDS)));
 
 
     public static final Block RUBY_STAIRS  = registerBlock("ruby_stairs",

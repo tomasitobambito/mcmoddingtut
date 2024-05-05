@@ -52,6 +52,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                         entries.add(ModBlocks.NETHER_RUBY_ORE);
                         entries.add(ModBlocks.ENDSTONE_RUBY_ORE);
+
+                        entries.add(ModItems.PORCUPINE_SPAWN_EGG);
                     }).build());
 
     public static void registerItemGroups() {
